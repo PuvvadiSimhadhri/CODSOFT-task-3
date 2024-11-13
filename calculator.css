@@ -1,0 +1,60 @@
+*{
+    padding:0 ;
+    margin:0 ;
+  }
+  body{
+    background-color:white;
+    display:flex;
+    justify-content:center ;
+    align-items:center;
+    height:80vh ;
+}
+  .container{
+       height:auto ;
+       background-color:grey;
+       padding:20px 10px 20px 10px;
+       border-radius:10px ;
+       width:100% ;
+       max-width:300px ;
+       
+  }
+  .display{
+    height:60px ;
+    margin-bottom:10px ;
+    outline:none;
+    border:none ;
+    text-align:right ;
+    width:100% ;
+    font-size:30px ;
+    background-color:black ;
+    color:white;
+    
+  }
+  .buttons{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap:5px;
+    
+    
+  }
+  .buttons button{
+    font-size:20px ;
+    padding:13px;
+    border:none;
+    border-radius:10px ;
+    cursor: pointer;
+    
+    
+    
+  }
+  .buttons button:active{
+    transform: scale(1.09);
+  }
+  .number{
+    color:white;
+    background-color:black ;
+  }
+  .operator{
+    background-color:orange ;
+    color:white;
+  }
